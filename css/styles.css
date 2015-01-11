@@ -1,31 +1,19 @@
-/*-- Children of the body element --*/
-body	{
-	font-family: Arial, Verdana, sans-serif;
-}	
-	
-/*-- Id of "container" --*/
-#container	{
-	border: 1px solid #665544;
-	background-color: #efefef;
-	padding: 10px;
+#four	{
+	background-color: #EBFFD4;	
 }
 
-/*-- Headings --*/
-h1 h2	{
-	color: #ee3e80;
+#three	{
+	background-color: #5BAB00;	
 }
 
-/*-- Paragraphs --*/
-p	{	
-	color: #665544;
+#two	{
+	background-color: #529900;	
 }
 
-/*-- Strong element --*/
-p strong	{
-	color: green;
+#one	{
+	background-color: #458200;	
 }
 
-/*-- Em elements --*/
-p em{
-   color: violet;
- }
+#zero	{
+	background-color: #3A6E00;	
+}
