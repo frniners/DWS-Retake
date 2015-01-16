@@ -6,7 +6,6 @@ body {
 	}
 		
 ul {
-	display: inline;
 	list-style-type: none;
 	text-align: center;
 	width: 625px;
@@ -18,6 +17,10 @@ ul {
 	margin-left: auto;
 	margin-right: auto;
 	}
+	
+li	{
+	display: inline;
+}
 
 p {
 	text-align: center;
