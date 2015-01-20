@@ -5,7 +5,7 @@
 }	
 
 .entry	{
-	font-size; 70%;
+	font-size: 70%;
 	width: 220px;
 	height: 220px;
 	float: left;
@@ -37,4 +37,5 @@ figcaption	{
 
 figcaption a	{
 	padding: 0px;
+	display:inline-block;
 }
