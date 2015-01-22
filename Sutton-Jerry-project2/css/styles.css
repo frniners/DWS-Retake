@@ -1,58 +1,85 @@
 body	{
+    font-family: Arial,Verdana,sans-serif;
+    color: #654;
+    text-align: center;
+    background-color: hsla(88, 100%, 30%, .80);
+}
+
+#nav	{
 	background-color: hsla(88, 100%, 30%, .80);
+    margin: 1%;
 }
 
-div {
-    background-color: #EBFFD4;
-    width: auto;
-    height: auto;
-    padding: 25px;
-    border: solid black;
-    border-radius: 25px;
-    margin: 5px 100px;
+#feature	{
+	background-color: hsla(88, 100%, 30%, .80);
+	margin: 1%; 
 }
 
-h1	{
-	font-family: 'Roboto', sans-serif;
-	font-size: 36px;
-	text-align: center;
-	text-shadow: 2px 2px #3A6E00;
-	font-style: italic;
-	font-weight: bold;
+#footer	{
+	background-color: hsla(88, 100%, 30%, .80);
+	margin: 1%;
 }
 
-p	{
-	line-height: 120%;
+#gall	{
+	background-color: hsla(88, 100%, 30%, .80);
+	margin: 1%;
 }
 
-a:link	{
-	color: #3A6E00;
+#nav, #footer {
+    padding: 0.5em 0px;
+	padding-top: 0.5em;
+	padding-right: 0px;
+	padding-bottom: 0.5em;
+	padding-left: 0px;
 }
 
-a:visited	{
-	color: #00FF00;	
+li {
+    display: inline;
+    padding: 0.5em;
+	padding-top: 0.5em;
+	padding-right: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 0.5em;
 }
 
-a:hover	{
-	color: #529900;	
+#content {
+    overflow: auto;
 }
 
-a:active	{
-	color: #0000FF;	
+#feature {
+    height: 100%;
+    margin-bottom: 1em;
 }
 
-ul li {
-    list-style-type: upper-alpha;
+.article	{
+	height: 100%;
+    margin-bottom: 1em;
+    background-color: hsla(88, 100%, 30%, .80);
 }
 
-h2 	{
-	box-shadow: 0px 10px 5px #888888;
-	text-align: center;	
+.column1, .column2, .column3 {
+    width: 31.3%;
+    height: 100%;
+    float: left;
+    margin: 1%;
+	margin-top: 1%;
+	margin-right: 1%;
+	margin-bottom: 1%;
+	margin-left: 1%;
+}
+
+/*-- Images --*/
+
+.gallery{
+	position:relative;
+	display: inline-block;
+	margin: 1%;
 }
 
 img {
 	padding:1px;
 	border:2px solid #021a40;
+	margin: 0px 15px 15px 0px;
 }
 
 img:hover	{
@@ -60,12 +87,40 @@ img:hover	{
 	border:3px solid hsla(88, 100%, 30%, .80);
 }
 
-h3 	{
-	box-shadow: 0px 10px 5px #888888;
-	text-align: center;	
+a:link	{
+	color: #3A6E00;
 }
 
-#links	{
-	box-shadow: 0px 10px 5px #888888;
-	text-align: center;	
+a:visited	{
+	color: #00FF00;
 }
+
+a:hover	{
+	color: #021a40;
+}
+
+a:active	{
+	color: #0000FF;
+}
+
+/*-- Headers --*/
+
+h1	{
+font-family: 'Roboto', sans-serif;
+font-size: 36px;
+text-align: center;
+text-shadow: 2px 2px #3A6E00;
+font-style: italic;
+font-weight: bold;
+}
+
+h2 {
+box-shadow: 0px 10px 5px #888888;
+text-align: center;
+}
+
+h3 {
+text-align: center;
+}
+
+

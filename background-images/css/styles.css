@@ -2,6 +2,7 @@
 	width: 500px;
 	margin: 20px 0px 20px 0px;
 	text-align: center;
+	overflow: auto;
 }	
 
 .entry	{
